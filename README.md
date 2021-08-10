@@ -6,7 +6,7 @@ This project created using React with basic functions on an appointment fixing w
 - Sorting the appointments
 - Deleting the appointments
 
-Checkout the link to see the deployed version: 
+Checkout the link to see the deployed version: https://pet-appointment-9a248.web.app/ 
 
 If u liked my website and the code was useful to you,
 feel free to leave a star (much appreciated 😃), fork it and customize as you like! :)
