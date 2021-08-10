@@ -1,6 +1,7 @@
 import React from "react";
 import { BiCalendar } from "react-icons/bi";
 import AddAppointment from "./components/AddAppointment";
+import AppointmentInfo from "./components/AppointmentInfo";
 import Search from "./components/Search";
 
 function App() {
