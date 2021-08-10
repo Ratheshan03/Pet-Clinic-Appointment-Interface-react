@@ -33,8 +33,8 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
         className={`bg-blue-400 text-white px-2 py-3 w-full text-left rounded-t-md
         ${toggleForm ? "rounded-t-md" : "rounded-md"}`}
       >
-        <div>
-          <BiCalendarPlus className="inline-block align-text-top" /> Add
+        <div className="flex items-center">
+          <BiCalendarPlus className="inline-block align-text-top mr-2" /> Add
           Appointment
         </div>
       </button>

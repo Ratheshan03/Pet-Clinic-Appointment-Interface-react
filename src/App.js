@@ -38,10 +38,10 @@ function App() {
   }, [fetchData]);
 
   return (
-    <div className="App container mx-auto mt-3 font-thin">
-      <h1 className="text-5xl mb-3">
-        <BiCalendar className="inline-block text-red-400 align-top" />
-        Your Appointments
+    <div className="App container mx-auto mt-0 font-thin">
+      <h1 className="text-5xl mb-3 flex items-center justify-center p-8 bg-gradient-to-r from-green-400 via-blue-300 to-blue-900">
+        <BiCalendar className="inline-block text-red-400 align-top mr-3" />
+        Your Pet Appointments
       </h1>
       <AddAppointment
         onSendAppointment={(myAppointment) =>
@@ -61,7 +61,7 @@ function App() {
         onSortByChange={(mySort) => setSortBy(mySort)}
       />
 
-      <ul className="divide-y divide-gray-200">
+      <ul className="divide-y divide-gray-200 ml-3 mr-3">
         {filteredAppointments.map((appointment) => (
           <AppointmentInfo
             key={appointment.id}
