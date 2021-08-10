@@ -24,7 +24,6 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
     setFormData(clearData);
     setToggleForm(!toggleForm);
   }
-
   return (
     <div>
       <button
