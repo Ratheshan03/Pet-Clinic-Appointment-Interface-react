@@ -6,7 +6,7 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
       <button
         onClick={() => onDeleteAppointment(appointment.id)}
         type="button"
-        className="p-1.5 mr-1.5 mt-1 rounded text-white bg-red-500 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        className="p-1.5 mr-3.5 mt-1 rounded text-white bg-red-500 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
       >
         <BiTrash />
       </button>
