@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App container mx-auto mt-0 font-thin">
-      <h1 className="text-5xl mb-3 flex items-center justify-center p-8 bg-gradient-to-r from-green-400 via-blue-300 to-blue-900">
+      <h1 className="text-5xl mb-3 flex items-center justify-center p-8 bg-gradient-to-r from-white via-blue-900 to-white">
         <BiCalendar className="inline-block text-red-400 align-top mr-3" />
         Your Pet Appointments
       </h1>
