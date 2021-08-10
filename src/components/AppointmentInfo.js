@@ -2,7 +2,7 @@ import { BiTrash } from "react-icons/bi";
 
 const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
   return (
-    <li className="px-3 py-3 flex items-start">
+    <li className="px-3 py-3 flex items-center">
       <button
         onClick={() => onDeleteAppointment(appointment.id)}
         type="button"
@@ -10,7 +10,7 @@ const AppointmentInfo = ({ appointment, onDeleteAppointment }) => {
       >
         <BiTrash />
       </button>
-      <div className="flex-grow">
+      <div className="flex-grow  hover:bg-gray-100 rounded-md p-5">
         <div className="flex items-center">
           <span className="flex-none font-medium text-2xl text-blue-500">
             {appointment.petName}

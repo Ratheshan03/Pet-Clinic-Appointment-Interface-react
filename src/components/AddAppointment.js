@@ -25,12 +25,12 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
     setToggleForm(!toggleForm);
   }
   return (
-    <div>
+    <div className="mr-5 ml-5">
       <button
         onClick={() => {
           setToggleForm(!toggleForm);
         }}
-        className={`bg-blue-400 text-white px-2 py-3 w-full text-left rounded-t-md
+        className={`bg-blue-400 text-white px-2 py-3 w-full text-left rounded-t-md  hover:bg-blue-300
         ${toggleForm ? "rounded-t-md" : "rounded-md"}`}
       >
         <div className="flex items-center">
