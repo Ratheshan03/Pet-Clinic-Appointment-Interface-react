@@ -1,3 +1,20 @@
+## Pet Clinic Appoinment Interface 🐶
+
+This project created using React with basic functions on an appointment fixing website like,
+- Adding an appointment
+- Viewing the appointments
+- Sorting the appointments
+- Deleting the appointments
+
+Checkout the link to see the deployed version: 
+
+If u liked my website and the code was useful to you,
+feel free to leave a star (much appreciated 😃), fork it and customize as you like! :)
+
+▶️ This project is based on the LinkedIn Learning course React.js: Building an Interface by <a href="https://github.com/planetoftheweb">Ray Villalobos</a>. 
+The full course is available from <a href="https://www.linkedin.com/learning/react-js-building-an-interface-8551484/why-react-is-so-important?u=76664938">LinkedIn Learning</a>.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
